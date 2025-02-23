@@ -1,17 +1,9 @@
-# Data Engineering Nanodegree Program
+# Project: Data Modeling with Cassandra
 
-402.74 million terabytes, that's how much data the world creates everyday. In today's world of big data, storing, organizing and analyzing that data is becoming more important than ever. Data Engineers build the engine that help companies make sense of it all.
+## Introduction
+A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.
 
-In this program, I learnt and mastered how to
-- Design data models
-- Build data warehouses and data lakes
-- Automate data pipelines and work with massive datasets
-- Create database in Apache Cassandra
-- Implement a data warehouse on AWS based on Redshift architecture
-- Utilized Spark to work with massive datasets
-- And used Apache airflow to schedule, automate and monitor data pipelines
+They'd like a data engineer to create an Apache Cassandra database which can create queries on song play data to answer the questions, and wish to bring us on the project. Our role is to create a database for this analysis. We'll be able to test our database by running queries given to us by the analytics team from Sparkify to create the results.
 
-![image](https://github.com/user-attachments/assets/15f98a38-74f5-430e-8dc8-05989f005115)
-
-
-![image](https://github.com/user-attachments/assets/affcd527-a0e7-4b06-9632-e00cbc8420db)
+## Project Overview
+In this project, We'll apply what we've learned on data modeling with Apache Cassandra and complete an ETL pipeline using Python. To complete this project, we will need to model our data by creating tables in Apache Cassandra to run queries.
