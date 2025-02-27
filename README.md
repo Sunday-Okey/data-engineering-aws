@@ -1,6 +1,6 @@
 # Data Engineering Nanodegree Program
 
-402.74 million terabytes, that's how much data the world creates everyday. In today's world of big data, storing, organizing and analyzing that data is becoming more important than ever. Data Engineers build the engine that help companies make sense of it all.
+402.74 million terabytes, that's how much data the world creates everyday. In today's world of big data, storing, organizing and analyzing data is becoming more important than ever. Data Engineers build the engine that help companies make sense of it all. They are crucial to any company's data strategy.
 
 In this program, I learnt and mastered how to
 - Design data models
