@@ -11,7 +11,8 @@ As their data engineer, you are tasked with building an ETL pipeline that extrac
 
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/6d3e2a51-1196-404f-bea8-9f52ee905fb4" />
 
-<img width="514" alt="image" src="https://github.com/user-attachments/assets/327567cb-0b15-47c9-9a22-8444534aa0f7" />
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/e1ded9fa-0915-43c1-8d20-da54897073e8" />
+
 
 ## Redshift Solution Architecture and ETL
 
