@@ -4,6 +4,7 @@ A music streaming startup, Sparkify, has grown their user base and song database
 
 As their data engineer, we are tasked with building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to.
 
+![image](https://github.com/user-attachments/assets/97bf198c-5387-4cad-b7b0-c8607c9cd28d)
 
 The project folder includes four files:
 
@@ -15,7 +16,9 @@ The project folder includes four files:
  ## Step-by-Step Guide to run the script
 Navigate to script directory (if not already there):
 - cd path/to/your/script/directory
+  
 Then run below
+
 - python create_tables.py
 - python etl.py
 
@@ -34,6 +37,7 @@ song_data/A/B/C/TRABCEI128F424C983.json
 song_data/A/A/B/TRAABJL12903CDCF1A.json
 
 And below is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
+
 {"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
 
 ## Log Dataset
@@ -47,7 +51,7 @@ log_data/2018/11/2018-11-13-events.json
 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
-![image](https://github.com/user-attachments/assets/97bf198c-5387-4cad-b7b0-c8607c9cd28d)
+
 
 
 
