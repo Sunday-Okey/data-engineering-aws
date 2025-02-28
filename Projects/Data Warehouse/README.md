@@ -29,6 +29,8 @@ We'll be working with two datasets stored in S3. Here are the S3 links for each:
 - Song data: s3://udacity-dend/song_data
 - Log data: s3://udacity-dend/log_data
 
+**NB:** To speed up the load time I used a subset of the song dataset - s3://udacity-dend/song_data/A/A.
+
 ## Song Dataset
 The first dataset is a subset of real data from the [Million Song Dataset](http://millionsongdataset.com/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are file paths to two files in this dataset.
 
