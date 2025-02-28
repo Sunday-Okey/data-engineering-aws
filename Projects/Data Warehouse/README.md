@@ -20,10 +20,10 @@ As their data engineer, we are tasked with building an ETL pipeline that extract
 
 The project folder includes four files:
 
-- create_table.py contains fact and dimension tables for the star schema in Redshift.
-- etl.py we load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
-- sql_queries.py is we define our SQL statements, which will be imported into the two other files above.
-- README.md provides discussions on the process and decisions for this ETL pipeline.
+- `create_table.py` contains fact and dimension tables for the star schema in Redshift.
+- `etl.py` we load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
+- `sql_queries.py` is we define our SQL statements, which will be imported into the two other files above.
+- `README.md` provides discussions on the process and decisions for this ETL pipeline.
 
 
 
