@@ -4,7 +4,7 @@ A music streaming startup, Sparkify, has grown their user base and song database
 
 As their data engineer, we are tasked with building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to.
 
-![image](https://github.com/user-attachments/assets/97bf198c-5387-4cad-b7b0-c8607c9cd28d)
+![image](https://github.com/user-attachments/assets/5600a398-45ed-4ddf-ac01-a479daaf12e6)
 
 The project folder includes four files:
 
@@ -54,11 +54,12 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 
 
+![image](https://github.com/user-attachments/assets/97bf198c-5387-4cad-b7b0-c8607c9cd28d)
 
 
 
 
-![image](https://github.com/user-attachments/assets/5600a398-45ed-4ddf-ac01-a479daaf12e6)
+
 
 <img width="511" alt="image" src="https://github.com/user-attachments/assets/1adb6408-3a2e-4d67-9932-fc5b048b10e6" />
 <img width="473" alt="image" src="https://github.com/user-attachments/assets/569da16c-7c6c-4c75-9212-a846f27c6f64" />
