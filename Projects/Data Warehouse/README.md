@@ -8,6 +8,47 @@ As their data engineer, we are tasked with building an ETL pipeline that extract
 
 ![image](https://github.com/user-attachments/assets/5600a398-45ed-4ddf-ac01-a479daaf12e6)
 
+
+## Schema for Song Play Analysis
+
+Using the song and event datasets, we'll create a `star schema` optimized for queries on song play analysis. This includes the following tables.
+
+![image](https://github.com/user-attachments/assets/364d5a6d-6d36-4067-ba72-1033e76fc797)
+
+
+Following tables are included:
+
+### Fact Table
+1. **songplays** - records in event data associated with song plays i.e. records with page NextSong
+ - `songplay_id`, `start_time`, `user_id`, `level`, `song_id`, `artist_id`, `session_id`, `location`, `user_agent`
+
+<img width="590" alt="image" src="https://github.com/user-attachments/assets/870c1eab-20a3-44ba-898c-3aa17fde0e81" />
+
+
+### Dimension Tables
+
+2. **users** - users in the app
+ - `user_id (PK)`, `first_name`, `last_name`, `gender`, `level`
+
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/3357c8ce-f1ee-4d3d-81b5-fc74339b4a78" />
+
+
+3. **songs** - songs in music database
+ - `song_id (PK)`, `title`, `artist_id`, `year`, `duration`
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/d14b1475-3852-491d-8999-a9d2aaa977fd" />
+
+
+4. **artists** - artists in music database
+ - `artist_id (PK)`, `name`, `location`, `lattitude`, `longitude`
+
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/70cfc6f1-05e7-4274-a8f7-22910ea6a341" />
+
+
+5. **time** - timestamps of records in songplays broken down into specific units
+ - `start_time (PK)`, `hour`, `day`, `week`, `month`, `year`, `weekday`
+
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/71f43378-8c4c-44c9-b267-fed4bb9bcdab" />
+
 The project folder includes four files:
 
 - `create_table.py` contains fact and dimension tables for the star schema in Redshift.
