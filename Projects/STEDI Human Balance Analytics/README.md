@@ -103,6 +103,7 @@ Using AWS Glue, AWS S3, Python, and Spark, create or generate Python scripts to 
 Refer to the flowchart below to better understand the workflow.
 
 ![image](https://github.com/user-attachments/assets/3807e194-1530-40d7-a144-581d8814c741)
+
 A flowchart displaying the workflow.
 
 ## Requirements
@@ -136,5 +137,6 @@ Refer to the relationship diagram below to understand the desired state.
 
 
 ![image](https://github.com/user-attachments/assets/d523e090-471c-406a-a4d6-02b93e8ae5a2)
+
 A diagram displaying the relationship between entities.
 
