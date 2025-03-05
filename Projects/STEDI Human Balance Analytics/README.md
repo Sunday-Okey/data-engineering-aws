@@ -2,4 +2,4 @@
 
 ## Introduction
 
-[](https://gifrun.blob.core.windows.net/temp/0ce1cbfd072d4a1a9b9460baa29556b6.gif)
+[](https://raw.githubusercontent.com/Sunday-Okey/data-engineering-aws/refs/heads/main/Projects/STEDI%20Human%20Balance%20Analytics/gif.gif)
