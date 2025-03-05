@@ -39,4 +39,60 @@ We'll build data pipelines that utilize the following tools to store, filter, pr
 - Athena
 - Python
 
+## Project Data
+
+STEDI has three JSON data sources to use from the Step Trainer. Check out the JSON data in the following folders [here](https://github.com/Sunday-Okey/data-engineering-aws/tree/main/Projects/STEDI%20Human%20Balance%20Analytics/project%20data):
+
+- customer
+- step_trainer
+- accelerometer
+
+### 1. Customer Records
+This is the data from fulfillment and the STEDI website.
+
+[Data Download URL](https://github.com/Sunday-Okey/data-engineering-aws/tree/main/Projects/STEDI%20Human%20Balance%20Analytics/project%20data/customer/landing)
+
+*AWS S3 Bucket URI - s3://cd0030bucket/customers/*
+
+contains the following fields:
+
+- serialnumber
+- sharewithpublicasofdate
+- birthday
+- registrationdate
+- sharewithresearchasofdate
+- customername
+- email
+- lastupdatedate
+- phone
+- sharewithfriendsasofdate
+
+### 2. Step Trainer Records
+This is the data from the motion sensor.
+
+[Data Download URL](https://github.com/Sunday-Okey/data-engineering-aws/tree/main/Projects/STEDI%20Human%20Balance%20Analytics/project%20data/step_trainer/landing)
+
+*AWS S3 Bucket URI - s3://cd0030bucket/step_trainer/*
+
+contains the following fields:
+
+- sensorReadingTime
+- serialNumber
+- distanceFromObject
+
+
+### 3. Accelerometer Records
+This is the data from the mobile app.
+
+[Data Download URL](https://github.com/Sunday-Okey/data-engineering-aws/tree/main/Projects/STEDI%20Human%20Balance%20Analytics/project%20data/accelerometer/landing)
+
+*AWS S3 Bucket URI - s3://cd0030bucket/accelerometer/*
+
+contains the following fields:
+
+- timeStamp
+- user
+- x
+- y
+- z
 
