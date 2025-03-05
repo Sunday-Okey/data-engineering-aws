@@ -116,7 +116,7 @@ The Data Science team has done some preliminary data analysis and determined tha
 
 1. Sanitize the Customer data from the Website (Landing Zone) and only store the Customer Records who agreed to share their data for research purposes (Trusted Zone) - creating a Glue Table called **customer_trusted**.
 
-2. Sanitize the Accelerometer data from the Mobile App (Landing Zone) - and only store Accelerometer Readings from customers who agreed to share their data for research purposes (Trusted Zone) - creating a Glue Table called **accelerometer_trusted**.
+2. Sanitize the Accelerometer data from the Mobile App (Landing Zone) - and only store Accelerometer Readings from customers who agreed to share their data for research purposes (Trusted Zone) - creating a Glue Table called ****accelerometer_trusted****.
 
 3. We will need to verify our Glue job is successful and only contains Customer Records from people who agreed to share their data. We will query our Glue customer_trusted table with Athena to confirm this.
 
