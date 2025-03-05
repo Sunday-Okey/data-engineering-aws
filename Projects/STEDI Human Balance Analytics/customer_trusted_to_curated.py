@@ -32,17 +32,19 @@ CustomerTrusted_node1741128144564 = glueContext.create_dynamic_frame.from_catalo
 # Script generated for node Accelerometer Landing
 AccelerometerLanding_node1741127900211 = glueContext.create_dynamic_frame.from_catalog(database="stedi", table_name="accelerometer_landing", transformation_ctx="AccelerometerLanding_node1741127900211")
 
-# Script generated for node Join
-Join_node1741128194424 = Join.apply(frame1=CustomerTrusted_node1741128144564, frame2=AccelerometerLanding_node1741127900211, keys1=["email"], keys2=["user"], transformation_ctx="Join_node1741128194424")
-
 # Script generated for node Share with Research
-SqlQuery2807 = '''
+SqlQuery2929 = '''
 select distinct customername, email, phone, birthday, 
 serialnumber, registrationdate, lastupdatedate, 
 sharewithresearchasofdate, sharewithpublicasofdate,
-sharewithfriendsasofdate from myDataSource
+sharewithfriendsasofdate 
+from customerTrusted c
+join accelerometerLanding a
+on c.email = a.user
+--  filter out any readings that were prior to the research consent date
+and  c.sharewithresearchasofdate <= a.timestamp
 '''
-SharewithResearch_node1741128296521 = sparkSqlQuery(glueContext, query = SqlQuery2807, mapping = {"myDataSource":Join_node1741128194424}, transformation_ctx = "SharewithResearch_node1741128296521")
+SharewithResearch_node1741128296521 = sparkSqlQuery(glueContext, query = SqlQuery2929, mapping = {"customerTrusted":CustomerTrusted_node1741128144564, "accelerometerLanding":AccelerometerLanding_node1741127900211}, transformation_ctx = "SharewithResearch_node1741128296521")
 
 # Script generated for node Amazon S3
 EvaluateDataQuality().process_rows(frame=SharewithResearch_node1741128296521, ruleset=DEFAULT_DATA_QUALITY_RULESET, publishing_options={"dataQualityEvaluationContext": "EvaluateDataQuality_node1741127877536", "enableDataQualityResultsPublishing": True}, additional_options={"dataQualityResultsPublishing.strategy": "BEST_EFFORT", "observations.scope": "ALL"})
