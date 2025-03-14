@@ -2,8 +2,8 @@
 
 ## Introduction
 
-In this project we'll act as a data engineer for the STEDI team to build a Data Lakehouse solution for sensor data that trains a machine learning model.
-We will use Apache Spark and AWS Glue to process data from multiple sources, transform it, categorize the data, and curate it to be queried in the future for multiple purposes.
+In this project I built a Data Lakehouse solution for sensor data that trains a machine learning model.
+I utilized Apache Spark and AWS Glue to process data from multiple sources, transform it, categorize the data, and curate it to be queried in the future for multiple purposes.
 
 ## Project Details
 
