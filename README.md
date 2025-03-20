@@ -15,5 +15,6 @@ In this program, I learnt and mastered how to
 
 ![](https://www.udacity.com/certificate/e/2480f6d6-f08d-11ef-9bd0-b70b1e349ca2)
 
-<img width="554" alt="image" src="https://github.com/user-attachments/assets/a3c94e83-9510-4d23-9df3-379a0f61e18e" />
+![image](https://github.com/user-attachments/assets/d885ef9b-a15b-4e0b-b681-33e8077545be)
+
 
