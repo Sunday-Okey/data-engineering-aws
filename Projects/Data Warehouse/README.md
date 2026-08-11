@@ -106,12 +106,6 @@ And below is an example of what the data in a log file, 2018-11-12-events.json, 
 
 
 
-<img width="511" alt="image" src="https://github.com/user-attachments/assets/1adb6408-3a2e-4d67-9932-fc5b048b10e6" />
-<img width="473" alt="image" src="https://github.com/user-attachments/assets/569da16c-7c6c-4c75-9212-a846f27c6f64" />
-
-<img width="496" alt="image" src="https://github.com/user-attachments/assets/6d3e2a51-1196-404f-bea8-9f52ee905fb4" />
-
-<img width="491" alt="image" src="https://github.com/user-attachments/assets/e1ded9fa-0915-43c1-8d20-da54897073e8" />
 
 
 ## Redshift Solution Architecture and ETL
